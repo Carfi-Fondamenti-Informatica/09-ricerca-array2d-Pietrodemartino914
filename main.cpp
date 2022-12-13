@@ -23,7 +23,7 @@ int main() {
 
 
 
-    if ( confronto(lista,nome)!=-1){
+    if ( confronto(lista,nome)>0){
         cout<<confronto(lista,nome);
     }else {
         cout<< "non presente";
