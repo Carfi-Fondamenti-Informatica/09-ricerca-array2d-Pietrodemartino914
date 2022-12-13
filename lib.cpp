@@ -1,4 +1,3 @@
-
 #include "lib.h"
 
 int confronto (char a [10][20],char b [1][20]){
@@ -9,7 +8,7 @@ int confronto (char a [10][20],char b [1][20]){
                     break;
                 }
                 if (j==19 and a[i][j]==b[0][j]){
-                    return ++i;
+                    return i;
                 }
             }
         }
