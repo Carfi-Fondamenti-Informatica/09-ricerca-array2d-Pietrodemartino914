@@ -1,3 +1,4 @@
+
 #include "lib.h"
 
 int confronto (char a [10][20],char b [1][20]){
@@ -13,5 +14,5 @@ int confronto (char a [10][20],char b [1][20]){
             }
         }
     }
-    return -1;
 }
+
